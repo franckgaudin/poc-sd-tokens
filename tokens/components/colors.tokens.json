@@ -1,0 +1,12 @@
+{
+  "button": {
+    "primary": {
+      "background-color": {
+        "value": "{primary.surface}"
+      },
+      "background-color-hover": {
+        "value": "{primary.surface-hover}"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "primary": {
+    "surface": {
+      "value": "{electric-blue.500}",
+      "darkValue": "{electric-blue.200}"
+    },
+    "surface-hover": {
+      "value": "{electric-blue.600}",
+      "darkValue": "{electric-blue.100}"
+    }
+  },
+  "neutral": {
+    "surface": {
+      "value": "{samoyed}",
+      "darkValue": "{black}"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+@import '../dist/tokens.css';
+@import '../dist/dark.tokens.css';
+
+.btn {
+  appearance: none;
+  border: none;
+  color: white;
+  padding-block: 0.75rem;
+  padding-inline: 1.5rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--wl-button-primary-background-color);
+}
+
+.btn:hover {
+  cursor: pointer;
+  --wl-button-primary-background-color: var(--wl-button-primary-background-color-hover);
+}
+
+
+/** Layout */
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  background-color: var(--wl-neutral-surface);
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  text-align: right;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  height: 100%;
+}
+
+.section {
+  padding-block: 2rem;
+  padding-inline: 2rem;
+}
+
+.toggle {
+  appearance: none;
+  background: white;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid black;
+  box-shadow: 2px 2px 0 1px black;
+}
+
+.toggle:hover {
+  cursor: pointer;
+}

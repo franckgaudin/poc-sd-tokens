@@ -1,0 +1,18 @@
+{
+  "electric-blue": {
+    "900": {"value": "#152450"},
+    "800": {"value": "#1B3587"},
+    "700": {"value": "#2040C7"},
+    "600": {"value": "#2F48FF"},
+    "500": {"value": "#3B57FF"},
+    "400": {"value": "#4767FE"},
+    "300": {"value": "#6C8FFD"},
+    "200": {"value": "#95B1FF"},
+    "100": {"value": "#B9CBFF"},
+    "075": {"value": "#D6E0FF"},
+    "050": {"value": "#E6EBFF"},
+    "025": {"value": "#F5F6FF"}
+  },
+  "black": { "value": "#171716" },
+  "samoyed": { "value": "#ffffff"}
+} 
